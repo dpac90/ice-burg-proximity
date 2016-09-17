@@ -1,0 +1,36 @@
+---
+msg_bus_host: 192.168.0.101
+sensor_msg_delay: 3
+sensor_trigger_distance_limit: 400
+iceburg_id: iceburg-main-1
+
+sensors:
+  - number: 0
+    # The serial clock
+    clk: 18
+    # The Chip select
+    cs: 25
+    # Serial Data in
+    data_in: 24
+    # Serial Data out
+    data_out: 23
+
+  - number: 1
+    # The serial clock
+    clk: 4
+    # The Chip select
+    cs: 22
+    # Serial Data in
+    data_in: 27
+    # Serial Data out
+    data_out: 17
+
+  - number: 2
+    # The serial clock
+    clk: 10
+    # The Chip select
+    cs: 5
+    # Serial Data in
+    data_in: 11
+    # Serial Data out
+    data_out: 9
